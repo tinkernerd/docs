@@ -3,7 +3,7 @@ title: Live Metar
 ---
 
 <script setup>
-import LiveMetar from '/info-tech/js/ProjComp/LiveMetar.vue'
+import LiveMetar from '@theme/components/projects/LiveMetar.vue'
 </script>
 
 
@@ -14,3 +14,6 @@ import LiveMetar from '/info-tech/js/ProjComp/LiveMetar.vue'
 
 
 <LiveMetar/>
+
+
+## For more JS Projects Visit [Js Projects](./js/)
