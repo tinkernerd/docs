@@ -16,4 +16,4 @@ import LiveMetar from '@theme/components/projects/LiveMetar.vue'
 <LiveMetar/>
 
 
-## For more JS Projects Visit [Js Projects](./js/)
+## For more JS Projects Visit [Js Projects](/js/)
