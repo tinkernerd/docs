@@ -3,7 +3,7 @@ outline: deep
 title: International Space Station Image Gallery
 ---
 <script setup>
-import SpaceStation from '@theme/components/projects/SpaceStation.vue'
+import SpaceStation from '@theme/components/Projects/SpaceStation.vue'
 </script>
 
 # International Space Station Image Gallery

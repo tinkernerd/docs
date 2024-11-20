@@ -19,19 +19,17 @@ articleDate: 2017-05-02T13:40:11
 category: 3d Printing
 outline: deep
 ---
-
 <script setup>
 import NotMyWork from '@theme/components/NotmyWork.vue'
 </script>
 
 # A detailed guide to printing your minis! : r/PrintedMinis
 
-> [!NOTE]
-> <NotMyWork/>
 
+:::warning Hey, this isn't my work.
+<NotMyWork/>
+:::
 
-> ## Excerpt
-> FDM printing has a lot of drawbacks when it comes to printing minis. It simply cannot achieve the required detail that SLA printers relish in. Unfortunately, resin printers are expensive. Even with the D7 and possible MP clone, it can get pretty expensive. Not to mention the amount of post processing. In this post, I intend to equip you with the tools to print your minis on your regular cheap FDM printer.
 
 ---
 FDM printing has a lot of drawbacks when it comes to printing minis. It simply cannot achieve the required detail that SLA printers relish in. Unfortunately, resin printers are expensive. Even with the D7 and possible MP clone, it can get pretty expensive. Not to mention the amount of post processing. In this post, I intend to equip you with the tools to print your minis on your regular cheap FDM printer.

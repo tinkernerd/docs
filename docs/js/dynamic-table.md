@@ -4,7 +4,7 @@ outline: deep
 ---
 
 <script setup>
-import DynamicTable from '@theme/components/projects/DynamicTable.vue'
+import DynamicTable from '@theme/components/Projects/DynamicTable.vue'
 </script>
 
 # Updatable Table

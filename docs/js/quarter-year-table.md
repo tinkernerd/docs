@@ -5,7 +5,7 @@ outline: deep
 # {{ $frontmatter.title }}
 
 <script setup>
-import QuarterYearCounterTable from '@theme/components/projects/QuarterYearCounterTable.vue'
+import QuarterYearCounterTable from '@theme/components/Projects/QuarterYearCounterTable.vue'
 </script>
 
 ## Project Summary:

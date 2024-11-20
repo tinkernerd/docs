@@ -1,4 +1,9 @@
-# Net-Tools
+---
+title: PyNet
+outline: deep
+---
+
+# PyNet
 
 ## GitHub Link:
 -  [tinkernerd/Net_Tools](https://www.github.com/tinkernerd/Net_Tools)

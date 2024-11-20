@@ -6,7 +6,7 @@ outline: deep
 # {{ $frontmatter.title }}
 
 <script setup>
-import QuarterYearCounter from '@theme/components/projects/QuarterYearCounter.vue'
+import QuarterYearCounter from '@theme/components/Projects/QuarterYearCounter.vue'
 </script>
 
 ## Project Summary:

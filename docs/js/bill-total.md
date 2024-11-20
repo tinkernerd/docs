@@ -3,7 +3,7 @@ outline: deep
 title: Lunch Order Cost Calculator
 ---
 <script setup>
-import TotalBill from '@theme/components/projects/BillTotal.vue'
+import TotalBill from '@theme/components/Projects/BillTotal.vue'
 </script>
 
 # Bill Total

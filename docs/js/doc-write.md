@@ -4,7 +4,7 @@ outline: deep
 ---
 
 <script setup>
-import DocWrite from '@theme/components/projects/DocWrite.vue'
+import DocWrite from '@theme/components/Projects/DocWrite.vue'
 </script>
 
 # Using JavaScript `document.write` for Dynamic HTML Content

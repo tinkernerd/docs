@@ -4,7 +4,7 @@ outline: deep
 ---
 
 <script setup>
-import BookReview from '@theme/components/projects/BookReview.vue'
+import BookReview from '@theme/components/Projects/BookReview.vue'
 </script>
 
 # Book Review Comment

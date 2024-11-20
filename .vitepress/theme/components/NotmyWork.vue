@@ -1,59 +1,25 @@
-<template>
-  <div v-if="noteBlock" class="callout" v-html="noteBlock"></div>
-</template>
+<script setup>
+import { useData } from 'vitepress'
 
-<script>
-export default {
-  computed: {
-    frontmatter() {
-      // Assumes the page provides frontmatter via $frontmatter (e.g., in VuePress/VitePress)
-      return this.$frontmatter || {};
-    },
-    title() {
-      return this.frontmatter.title || "No title provided";
-    },
-    source() {
-      return this.frontmatter.source || "No source provided";
-    },
-    authors() {
-      return this.frontmatter.author || "Unknown author";
-    },
-    authorsList() {
-      return this.authors.split(",").map((author) => author.trim());
-    },
-    truncatedTitle() {
-      const words = this.title.split(" ");
-      return words.length > 4 ? `${words.slice(0, 4).join(" ")}...` : this.title;
-    },
-    authorsText() {
-      if (this.authorsList.length === 1) {
-        return this.authorsList[0];
-      }
-      const lastAuthor = this.authorsList.pop();
-      return `${this.authorsList.join(", ")}, and ${lastAuthor}`;
-    },
-    noteBlock() {
-      return `
-        <strong>Hey, this isn't my work.</strong>
-        Feel free to check out 
-        <a href="${this.source}" target="_blank">${this.truncatedTitle}</a>, 
-        by ${this.authorsText}.
-      `;
-    },
-  },
-};
+const { frontmatter } = useData();
+
+const title = frontmatter.value.title || "No title provided";
+const source = frontmatter.value.source || "No source provided";
+const authors = frontmatter.value.author || "Unknown author";
+
+const authorsList = authors.split(",").map((author) => author.trim());
+const truncatedTitle = title.split(" ").slice(0, 4).join(" ") + (title.split(" ").length > 4 ? "..." : "");
+const authorsText = authorsList.length > 1
+  ? `${authorsList.slice(0, -1).join(", ")}, and ${authorsList.slice(-1)}`
+  : authorsList[0];
 </script>
 
-<style>
-.callout {
-  padding: 1rem;
-  /*border: 1px solid #ddd;
-  border-radius: 4px;
-  background-color: #f9f9f9;*/
-}
-.callout strong {
-  display: block;
-  margin-bottom: 0.5rem;
-  font-weight: bold;
-}
-</style>
+<template>
+  <div class="callout">
+    <p>
+      Feel free to check out
+      <a :href="source" target="_blank" rel="noopener">{{ truncatedTitle }}</a>,
+      by {{ authorsText }}.
+    </p>
+  </div>
+</template>

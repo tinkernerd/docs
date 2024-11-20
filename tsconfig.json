@@ -1,0 +1,21 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.json",
+  "compilerOptions": {
+     "allowImportingTsExtensions": true,
+    "paths": {
+      "@theme/*": ["./.vitepress/theme/*"]
+    },
+  },
+  "include": [
+    "env.d.ts",
+    ".vitepress/**/*",
+    "docs/**/*",
+    // Also need to explicitly include Markdown files to have TS intellisense work with Volar
+    "docs/**/*.md"
+  ],
+  "exclude": [
+    "node_modules/",
+    ".pnpm-store/"
+  ]
+}
+

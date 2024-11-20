@@ -1,3 +1,8 @@
+---
+title: PyMath
+outline: deep
+---
+
 # PyMath
 ## GitHub Link:
 -  [tinkernerd/Python-Math](https://www.github.com/tinkernerd/Python-Math)

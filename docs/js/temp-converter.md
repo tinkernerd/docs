@@ -3,7 +3,7 @@ outline: deep
 title: Temp Conversion
 ---
 <script setup>
-import TempConv from '@theme/components/projects/TempConv.vue'
+import TempConv from '@theme/components/Projects/TempConv.vue'
 </script>
 
 # Celsius to Fahrenheit Converter

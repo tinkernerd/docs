@@ -3,7 +3,7 @@
 
 // Use empty space in docs navs more effectively.
 // Using existing default fallback styles where possible to negate calc()-type sizes.
-/*.VPSidebar {
+.VPSidebar {
   --active-indicator-padding: 16px;
   --vp-sidebar-width: 308px;
   --vp-new-padding: calc(32px - var(--active-indicator-padding));
@@ -103,4 +103,3 @@
 #VPSidebarNav .VPSidebarItem.level-1.has-active > .items {
   border-color: transparent;
 }
-*/

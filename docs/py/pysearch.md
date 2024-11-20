@@ -1,3 +1,8 @@
+---
+title: Tkinter Search Bar
+outline: deep
+---
+
 # Tkinter Search Bar
 ## GitHub Link:
 -  [tinkernerd/Tkinter-Search-Bar](https://www.github.com/tinkernerd/Tkinter-Search-Bar)

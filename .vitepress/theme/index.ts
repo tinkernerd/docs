@@ -3,7 +3,7 @@ import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './styles/index.scss';
-import './scripts/edit-link';
+import './scripts/edit-link.ts';
 
 
 export default {

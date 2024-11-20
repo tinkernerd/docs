@@ -25,8 +25,11 @@ import NotMyWork from '@theme/components/NotmyWork.vue'
 
 # 3D Printing Price Calculator
 
-> [!NOTE]
-> <NotMyWork/>
+
+:::warning Hey, this isn't my work.
+<NotMyWork/>
+:::
+---
 
 We often see online discussions about the price of 3D prints, or more specifically: **how to calculate the price for having something 3D printed.** Since there are many myths floating around, we figured out that many people will be interested in a deep dive into various aspects of this field. So, how do you set the right price for a 3D print? We’ll take you through the main aspects of 3D printing pricing that affect the price, however, if you’re not really keen on learning every single detail, feel free to scroll down to the end – we have a small surprise for you there.
 

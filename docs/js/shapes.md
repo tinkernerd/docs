@@ -4,7 +4,7 @@ title: Shape Hover Interaction
 ---
 
 <script setup>
-import Shapes from '@theme/components/projects/Shapes.vue'
+import Shapes from '@theme/components/Projects/Shapes.vue'
 </script>
 
 # Shape Hover Interaction

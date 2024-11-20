@@ -5,17 +5,17 @@ source: https://all3dp.com/2/3d-printer-bed-leveling-step-by-step-tutorial/
 description: A step-by-step tutorial on how to level a 3D printer bed, ensuring optimal print quality by adjusting the bed height and alignment.
 outline: deep
 ---
-
 <script setup>
 import NotMyWork from '@theme/components/NotmyWork.vue'
 </script>
 
-# 3D Printer Bed Leveling Easy Step-by-Step Guide
+# {{ $frontmatter.title }}
 
-> [!NOTE]
-> <NotMyWork/>
 
-<br>
+:::warning Hey, this isn't my work.
+<NotMyWork/>
+:::
+---
 Manual 3D printer bed leveling can be a frustrating experience even for seasoned makers. However, as soon as you understand the basics of the process, you’ll easily master this useful skill. Here’s how to do it.
 
 ## 1. Create Some Workspace

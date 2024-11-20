@@ -1,6 +1,6 @@
 ---
 title: Aviation Adventures
-
+outline: deep
 ---
 
 # ✈️ Welcome to Aviation Adventures! ✈️

@@ -1,3 +1,8 @@
+---
+title: APIs in JavaScript
+outline: deep
+---
+
 # APIs in JavaScript
 
 JavaScript can interact with APIs (Application Programming Interfaces) to fetch data from external services.

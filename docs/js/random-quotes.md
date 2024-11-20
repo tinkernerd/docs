@@ -5,7 +5,7 @@ outline: deep
 ---
 
 <script setup>
-import RandQuote from '@theme/components/projects/RandQuote.vue'
+import RandQuote from '@theme/components/Projects/RandQuote.vue'
 </script>
 
 # Random Quotes

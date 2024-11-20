@@ -17,16 +17,16 @@ status: Archive
 category: 3d Printing
 outline: deep
 ---
-
 <script setup>
 import NotMyWork from '@theme/components/NotmyWork.vue'
 </script>
+# Getting to Benchy with the Ender 3
 
-# 3D Printing Getting to Benchy with the Ender 3 – Rob Connolly's Blog
 
-> [!NOTE]
-> <NotMyWork/>
-<br>
+:::warning Hey, this isn't my work.
+<NotMyWork/>
+:::
+---
 
 I recently bought a 3D printer in the form of a [Creality Ender 3](http://s.click.aliexpress.com/e/Ew0J8ezw). I thought I would take the time to document how I got up and running, since this area is completely new to me. Hopefully this will be useful to those who are just starting out in 3D printing, specifically with the Ender 3. It’s not going to be a complete guide, but more of a high level overview of the steps I took. I’ll link to more detailed instructions where relevant.
 
