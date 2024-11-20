@@ -253,7 +253,7 @@ function sidebarRecipes(): DefaultTheme.SidebarItem[] {
     return [
         {
             text: 'Alcohol Drinks',
-            base: '/recipes/drinks/',
+            base: '/recipes/',
             collapsed: false,
             items: [
                 { text: 'Long Island Iced Tea', link: 'long-island' },
@@ -262,7 +262,7 @@ function sidebarRecipes(): DefaultTheme.SidebarItem[] {
         },
         {
             text: 'Non-Alcohol Drinks',
-            base: '/recipes/drinks/',
+            base: '/recipes/',
             collapsed: false,
             items: [
                 { text: 'Homemade Lemonade', link: 'homemade-lemonade' },
@@ -270,7 +270,7 @@ function sidebarRecipes(): DefaultTheme.SidebarItem[] {
         },
         {
             text: 'Food',
-            base: '/recipes/food/',
+            base: '/recipes/',
             collapsed: false,
             items: [
                 { text: 'Copycat Chick-fil-A Spicy Southwest Salad', link: 'spicy-southwest-salad' },

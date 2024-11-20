@@ -8,6 +8,7 @@ tags:
 dateCreated: 2024-09-21 08:00
 status: Archive
 outline: deep
+drink: alcohol
 ---
 
 # [Hard Apple Cider](https://www.growforagecookferment.com/how-to-make-hard-cider-part-1-brew-it/)

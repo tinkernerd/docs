@@ -6,7 +6,7 @@ import { defineConfig, type HeadConfig } from 'vitepress';
 import {sidebarAviation, sidebarWindows, sidebarDocumentation, sidebarSecurity, sidebarRecipes, sidebarPhotography, sidebarNetworking, sidebarLinux, sidebar3dPrint, sidebarJS, sidebarArduino, sidebarDocker, sidebarBible, sidebarPY, sidebarGithub } from './theme/data/sidebar.ts'
 
 dotenv.config();
-const BASE_PATH = '/docs';
+const BASE_PATH = '/';
 const BASE_WITH_ORIGIN = `https://nicholasstull.com${BASE_PATH}`;
 // https://vitepress.dev/reference/site-config
 

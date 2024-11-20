@@ -1,6 +1,7 @@
 ---
 layout: page
 title: TinkerDocs
+description: This is the home page of TinkerDocs, providing an overview of the platform and quick access to various sections.
 og_image: index.png
 ---
 

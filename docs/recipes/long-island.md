@@ -6,6 +6,7 @@ tags:
 dateCreated: 2024-09-21 08:00
 status: Active
 outline: deep
+drink: alcohol
 ---
 
 # [The REAL Long Island Iced Tea](https://www.allrecipes.com/recipe/228491/the-real-long-island-iced-tea/)

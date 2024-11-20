@@ -6,6 +6,7 @@ source: https://sugarspunrun.com/homemade-lemonade-recipe/
 title: Homemade Lemonade Recipe
 type: Recipe
 outline: deep
+drink: clean
 ---
 CookTime: 5m 
 TotalTime: 15m 

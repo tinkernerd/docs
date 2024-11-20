@@ -31,48 +31,49 @@ export const contactCardLink: CardLink[] = [
 
 export const homeTopLinks: CardLink[] = [
     {
-        icon: 'fa-file-import',
-        title: 'Get Started',
+        icon: 'fa-user-circle',
+        title: 'About',
         description:
-            'Explore the full potential of StackBlitz: from writing code or spinning quick demos to making your docs delightful.',
-        url: '/guides/user-guide/what-is-stackblitz',
+            'Learn more about me and my journey, from hobbies to professional achievements.',
+        url: '/about',
     },
     {
-        icon: 'fa-browser',
-        title: 'Codeflow',
+        icon: 'fa-envelope',
+        title: 'Contact',
         description:
-            'One click opens a full in-browser IDE for your repos, issues, and PRs. No more cloning, installing, stashing!',
-        url: '/codeflow/what-is-codeflow',
+            'Need to reach out? Find all the ways to get in touch, including social media and Discord.',
+        url: '/contact',
     },
     {
-        icon: 'fa-brackets-curly',
-        title: 'API Reference',
+        icon: 'fa-plane',
+        title: 'Aviation',
         description:
-            'Embed GitHub repos, create new projects, build educational experiences, all programmatically with our SDK.',
-        url: '/platform/api/javascript-sdk',
+            'Dive into my aviation notes, including weather, sectional charts, and flight tips.',
+        url: '/aviation/index',
     },
     {
-        icon: 'fa-life-ring',
-        title: 'Integrating StackBlitz',
+        icon: 'fa-bible',
+        title: 'Bible',
         description:
-            'Follow guides on building interactive playgrounds, improving bug repros, and using StackBlitz for tech education.',
-        url: '/guides/integration/open-from-github',
+            'Explore daily verses, reflections, and my personal Bible notes.',
+        url: '/bible/index',
     },
     {
-        icon: 'fa-users',
-        title: 'Teams',
+        icon: 'fa-utensils',
+        title: 'Recipes',
         description:
-            'With StackBlitz Teams you create a secure, private workspace for you and your teammates.',
-        url: '/teams/what-is-stackblitz-teams',
+            'Discover drink and food recipes, from homemade ginger ale to spicy popcorn.',
+        url: '/recipes/index',
     },
     {
-        icon: 'fa-server',
-        title: 'Enterprise Server',
+        icon: 'fa-sitemap',
+        title: 'Info Tech',
         description:
-            'Run StackBlitz behind your firewall, on new or existing Kubernetes clusters, with options for air gapping and SSO.',
-        url: '/enterprise/overview',
+            'Access technical resources and my detailed sitemap for easy navigation.',
+        url: '/sitemap',
     },
 ];
+
 
 export const homeExternalLinks: CardLink[] = [
     {
