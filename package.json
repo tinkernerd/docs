@@ -3,8 +3,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview docs",
+    "generate:sitemap": "node scripts/generateSitemap.js",
+    "build": "npm run generate:sitemap && vitepress build",
+    "docs:preview": "vitepress preview docs ",
     "docs:dev": "vitepress dev --host",
     "docs:format": "prettier --write '**/*.{js,ts,css,scss}'",
     "docs:serve": "vitepress serve",
@@ -26,5 +27,8 @@
     "singleQuote": true,
     "useTabs": false
   },
-  "packageManager": "pnpm@9.3.0"
+  "packageManager": "pnpm@9.3.0",
+  "dependencies": {
+    "gray-matter": "^4.0.3"
+  }
 }
